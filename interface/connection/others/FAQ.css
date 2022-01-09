@@ -1,0 +1,63 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  /* font-family: 'Bitter', serif; */
+}
+
+button {
+  font-weight: bold;
+}
+
+.section {
+  background-image: url("./img/pexels-anna-shvets-5324960.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1000px;
+}
+
+.accordion-body {
+  font-weight: bold;
+}
+
+.mb {
+  margin: 1em;
+  font-weight: bold;
+  color: #000;
+  letter-spacing: 6px;
+  font-size: 3em;
+}
+
+.mb-2 {
+  margin: 4em;
+  font-weight: bold;
+  color: #000;
+  letter-spacing: 3px;
+}
+
+.btn{
+  font-weight: bold;
+  color: #000;
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+  height: 13px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(40deg, #b3b1b3 14%, #ffffff 64%);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(40deg, #8c8a8c 14%, #ffffff 64%);
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 0px 0px #f0f0f0;
+}
