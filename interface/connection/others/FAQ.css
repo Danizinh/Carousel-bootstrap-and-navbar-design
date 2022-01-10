@@ -11,11 +11,7 @@ button {
 }
 
 .section {
-  background-image: url("./img/pexels-anna-shvets-5324960.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 1000px;
+  color: #fff;
 }
 
 .accordion-body {
