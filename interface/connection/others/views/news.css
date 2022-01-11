@@ -1,0 +1,78 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.D_logo {
+  padding: 5px;
+  height: 80px;
+  max-width: 55px;
+  max-height: 50px;
+  cursor: pointer;
+  filter: drop-shadow(2px 4px 8px #0a0a0b);
+}
+
+section {
+  position: relative;
+  min-height: 100vh;
+  min-width: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  font-weight: bold;
+}
+
+ul {
+  display: flex;
+  position: relative;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  display: inline-block;
+  color: black;
+  margin-left: 40px;
+  text-decoration: none;
+}
+li:hover{
+  color: #a3a3a3;
+}
+.continer {
+  margin-bottom: 10px;
+}
+
+.row {
+  margin: 5%;
+}
+
+.card-title {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.card-subtitle {
+  color: #a3a3a3;
+  font-weight: 800;
+}
+.card-link{
+  color: blue;
+  font-weight:bold;
+  text-decoration: none;
+}
