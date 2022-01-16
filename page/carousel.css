@@ -97,7 +97,7 @@ h3 {
   justify-content: center;
   align-items: center;
   min-height: 800px;
-  background: whitesmoke;
+  margin: 20px;
 }
 
 .container {
