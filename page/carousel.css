@@ -97,7 +97,7 @@ h3 {
   justify-content: center;
   align-items: center;
   min-height: 800px;
-  margin: 20px;
+  margin: 10px;
 }
 
 .container {
@@ -113,6 +113,7 @@ h3 {
   height: 400px;
   background: #000;
   box-shadow: 0 30px 30px rgba(0, 0, 0.5);
+  margin: 10px;
 }
 
 .box .imgBX {
