@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Bitter", serif;
 }
 
 body {
@@ -19,10 +19,10 @@ button {
   cursor: pointer;
   margin-bottom: 8px;
 }
-input{
+input {
   font-weight: bold;
 }
-a{
+a {
   text-decoration: none;
 }
 .D_logo {
@@ -51,8 +51,8 @@ a{
   height: 100%;
   left: 0;
   top: 0;
-  background: url("./img/pexels-nubia-navarro-\(nubikini\)-386009.jpg") no-repeat
-    center;
+  background: url("./img/pexels-nubia-navarro-\(nubikini\)-386009.jpg")
+    no-repeat center;
   background-size: cover;
   filter: blur(50px);
   z-index: -1;
@@ -71,8 +71,8 @@ a{
 }
 
 .left {
-  background: url("./img/pexels-nubia-navarro-\(nubikini\)-386009.jpg") no-repeat
-    center;
+  background: url("./img/pexels-nubia-navarro-\(nubikini\)-386009.jpg")
+    no-repeat center;
   background-size: cover;
   height: 100%;
 }
@@ -86,7 +86,7 @@ h2 {
   padding: 0 0 10px;
   margin-bottom: 10px;
 }
-h4{
+h4 {
   margin-bottom: 10px;
 }
 
@@ -114,7 +114,7 @@ h2:after {
   border-radius: 10px;
 }
 
-input::placeholder{
+input::placeholder {
   color: #000;
   font-weight: bold;
 }

@@ -2,7 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: 'Bitter', serif;
+  font-family: "Bitter", serif;
 }
 
 .D_logo {
@@ -70,12 +70,12 @@ h3 {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 30px;
-  color: #fff
+  color: #fff;
 }
 
 .paragraph {
-  color:#CCD7E4;
-  font-weight:bolder;
+  color: #ccd7e4;
+  font-weight: bolder;
   font-size: 3em;
   margin-top: 5rem;
 }
@@ -93,7 +93,7 @@ h3 {
   font-size: 3em;
   margin-top: 10rem;
 }
-.h-1{
+.h-1 {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -102,7 +102,7 @@ h3 {
 }
 
 .general_one {
-  background-color: #CCD7E4;
+  background-color: #ccd7e4;
   display: flex;
   justify-content: center;
   align-items: center;
