@@ -39,6 +39,7 @@ header {
 ul {
   display: flex;
   position: relative;
+  text-transform: uppercase;
 }
 
 ul li {
