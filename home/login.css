@@ -23,7 +23,7 @@ button {
 a {
   text-decoration: none;
 }
-.D_logo {
+.div-D_logo {
   padding: 5px;
   height: 80px;
   max-width: 55px;
@@ -32,7 +32,7 @@ a {
   filter: drop-shadow(2px 4px 8px #0a0a0b);
 }
 
-.container {
+.div-container {
   position: relative;
   width: 100%;
   height: 100%;
@@ -42,7 +42,7 @@ a {
   padding: 20px 100px;
 }
 
-.container:after {
+.div-container:after {
   content: "";
   position: absolute;
   width: 100%;
@@ -56,7 +56,7 @@ a {
   z-index: -1;
 }
 
-.contact-box {
+.div-contact-box {
   max-width: 850px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -68,14 +68,14 @@ a {
   box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
 }
 
-.left {
+.div-left {
   background: url("img/pexels-revac-film's&photography-54278.jpg") no-repeat
     center;
   background-size: cover;
   height: 100%;
 }
 
-.right {
+.div-right {
   padding: 25px 40px;
 }
 
@@ -104,7 +104,7 @@ input::placeholder {
   color: #000;
   font-weight: bold;
 }
-.field {
+.div-field {
   width: 100%;
   outline: none;
   border: 2px solid rgba(0, 0, 0, 0);
@@ -116,39 +116,39 @@ input::placeholder {
   border-radius: 10px;
 }
 
-.field:hover {
+.div-field:hover {
   background-color: #ccc;
 }
 
-.field:focus {
+.div-field:focus {
   background-color: #fff;
   border: 2px solid rgba(30, 85, 250, 0.47);
 }
 
-.area {
+.div-area {
   min-height: 100px;
 }
 
-.success {
+.div-success {
   border-color: #04aa6d;
   color: #000;
   transition: 0.3s;
 }
 
-.success:hover {
+.div-success:hover {
   background-color: #04aa6d;
   border: none;
   color: white;
 }
 
-.paragraph a {
+.div-paragraph a {
   color: #1877f2;
   margin-bottom: 20px;
   font-size: 14px;
   font-weight: bold;
 }
 
-.paragraph h2 {
+.div-paragraph h2 {
   color: #000;
   font-size: 1rem;
 }

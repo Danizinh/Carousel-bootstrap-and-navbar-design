@@ -5,7 +5,7 @@
   font-family: 'Bitter', serif;
 }
 
-.D_logo {
+.div-D_logo {
   padding: 5px;
   height: 80px;
   max-width: 55px;
@@ -55,7 +55,7 @@ ul li a {
 li:hover{
   color: #a3a3a3;
 }
-.continer {
+.div-container {
   margin-bottom: 10px;
 }
 
