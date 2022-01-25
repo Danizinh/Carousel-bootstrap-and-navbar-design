@@ -1,0 +1,178 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Bitter", serif;
+}
+
+.div-container {
+  background-image: url("./img/pexels-mikael-blomkvist-6476249.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px;
+  height: 800px;
+}
+
+.h-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 3px;
+  color: #fff;
+  font-size: 80px;
+  text-transform: capitalize;
+  margin-bottom: 5vh;
+}
+.text {
+  display: flex;
+  min-width: 100vw;
+  min-height: 100vh;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.text-f1 {
+  font-size: 4em;
+  margin: 2px;
+  color: #fff;
+}
+
+.div-alinha_paragrafo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.paragraph {
+  height: 100%;
+  width: 100vh;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1em;
+  letter-spacing: 1px;
+  text-transform: inherit;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  padding: 36px;
+  margin: 10px;
+}
+
+.success {
+  border-color: #04aa6d;
+  color: green;
+  border-radius: 10px;
+  width: 180px;
+}
+
+.success:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.info {
+  border-color: #2196f3;
+  color: dodgerblue;
+  border-radius: 10px;
+  width: 180px;
+}
+
+.info:hover {
+  background: #2196f3;
+  color: white;
+}
+.div-about {
+  width: 100%;
+  /* padding: 78% 0px; */
+  background-color: #191919;
+}
+
+.div-about img {
+  height: auto;
+  width: 420px;
+}
+.div-about-text {
+  width: 550px;
+}
+.div-main {
+  width: 1130px;
+  margin-bottom: 10px;
+  max-width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.div-about-text h1 {
+  color: #fff;
+  font-size: 80px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.div-about-text h5 {
+  color: #fff;
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+
+span {
+  color: #f9004d;
+}
+
+.div-about-text p {
+  color: #fff;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
+button {
+  background-color: #f9004d;
+  color: #ffff;
+  font-size:14px;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+}
+
+@media screen and (max-width: 650px) {
+  .h-2 {
+    width: 100px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .div-main {
+    width: 100px;
+    display:block;
+    margin-left: 10px;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+  height: 13px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(40deg, #b3b1b3 14%, #ffffff 64%);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(40deg, #8c8a8c 14%, #ffffff 64%);
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 0px 0px #f0f0f0;
+}
