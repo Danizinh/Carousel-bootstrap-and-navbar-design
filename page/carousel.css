@@ -13,6 +13,7 @@
   cursor: pointer;
   filter: drop-shadow(2px 4px 8px #0a0a0b);
 }
+
 button {
   padding: 2px 15px;
   font-weight: 700;
@@ -67,29 +68,29 @@ h3 {
 }
 .div-5 {
   font-size: 5em;
-  font-weight: 500;
+  font-weight: 100;
   text-transform: uppercase;
   letter-spacing: 30px;
   color: #fff;
 }
 
 .paragraph {
-  color: #ccd7e4;
-  font-weight: bolder;
+  color: #ED461D;
+  font-weight: 100;
   font-size: 3em;
   margin-top: 5rem;
 }
-.paragraph-sub {
-  color: #b88700;
-  font-weight: bolder;
+.paragraph-s {
+  color:#5b99bd ;
+  font-weight: 100;
   font-size: 3em;
   margin-top: 6rem;
   margin-top: 5rem;
   line-height: 1em;
 }
-.paragraph-title {
-  color: #98838f;
-  font-weight: bold;
+.paragraph-t {
+  color: #b88700;
+  font-weight: 200;
   font-size: 3em;
   margin-top: 10rem;
 }
