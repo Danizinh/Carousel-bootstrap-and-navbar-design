@@ -5,10 +5,6 @@
   font-family: "Bitter", serif;
 }
 
-button {
-  font-weight: bold;
-}
-
 .section {
   background-image: url("./img/pexels-negative-space-33999.jpg");
   background-position: center;
@@ -22,29 +18,21 @@ button {
   font-weight: bold;
   color: #000;
 }
-
-.mb {
-  margin: 1em;
-  font-weight: bold;
-  color: #000;
-  letter-spacing: 6px;
-  font-size: 3em;
+.undraw{
+  height: 17vw;
+  width: 100vw;
+  display: flex;
+  flex-direction:row;
+}
+.col-md-6{
+display: flex;
+align-items: center;
 }
 
-.mb-2 {
+.btn-warning{
   font-weight: bold;
-  letter-spacing: 4px;
-  color: #000;
-  backdrop-filter: blur(46px);
-  text-transform: unset;
-  padding: 36px;
-}
 
-.btn {
-  font-weight: bold;
-  color: #000;
 }
-
 ::-webkit-scrollbar {
   width: 13px;
   height: 13px;
