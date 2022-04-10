@@ -22,6 +22,7 @@ button {
   margin: 10px 10px;
   border: 1px solid #ccc;
 }
+
 ul li {
   display: inline-block;
   list-style: none;
@@ -42,18 +43,22 @@ h3 {
   font-weight: bold;
   margin: 1px;
 }
+
 .btn-s {
   justify-content: center;
   margin: 10px 10px;
 }
+
 .btn-d {
   justify-content: center;
   margin: 10px 10px;
 }
+
 .btn-g {
   justify-content: center;
   margin: 10px 10px;
 }
+
 .carousel-item {
   max-height: 850px;
   text-align: left;
@@ -66,6 +71,7 @@ h3 {
   letter-spacing: 30px;
   color: #fff;
 }
+
 .div-5 {
   font-size: 5em;
   font-weight: 100;
@@ -75,25 +81,28 @@ h3 {
 }
 
 .paragraph {
-  color: #ED461D;
+  color: #fff;
   font-weight: 100;
   font-size: 3em;
   margin-top: 5rem;
 }
+
 .paragraph-s {
-  color:#5b99bd ;
+  color: #fff;
   font-weight: 100;
   font-size: 3em;
   margin-top: 6rem;
   margin-top: 5rem;
   line-height: 1em;
 }
+
 .paragraph-t {
-  color: #b88700;
+  color: #fff;
   font-weight: 200;
   font-size: 3em;
   margin-top: 10rem;
 }
+
 .h-1 {
   display: flex;
   align-items: center;
@@ -189,6 +198,8 @@ h3 {
   opacity: 1;
   transition-delay: 0.5s;
 }
+
+
 
 ::-webkit-scrollbar {
   width: 13px;
