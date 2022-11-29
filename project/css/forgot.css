@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bitter", serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+button {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 8px 55px;
+  font-size: 16px;
+  font-weight: 800;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+input {
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+.div-D_logo {
+  padding: 5px;
+  height: 80px;
+  max-width: 55px;
+  max-height: 50px;
+  cursor: pointer;
+  filter: drop-shadow(2px 4px 8px #0a0a0b);
+}
+
+.div-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 100px;
+}
+
+.div-container:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: url("../img/pexels-nubia-navarro-\(nubikini\)-386009.jpg")
+    no-repeat center;
+  background-size: cover;
+  filter: blur(50px);
+  z-index: -1;
+}
+
+.div-contact-box {
+  max-width: 850px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+  background-color: #fff;
+  box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+}
+
+.div-left {
+  background: url("../img/pexels-nubia-navarro-\(nubikini\)-386009.jpg")
+    no-repeat center;
+  background-size: cover;
+  height: 100%;
+}
+
+.div-right {
+  padding: 25px 40px;
+}
+
+h2 {
+  position: relative;
+  padding: 0 0 10px;
+  margin-bottom: 10px;
+}
+h4 {
+  margin-bottom: 10px;
+}
+
+h2:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  height: 5px;
+  width: 50px;
+  border-radius: 3px;
+  background-color: #2ecc71;
+}
+
+.div-field {
+  width: 100%;
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 0);
+  padding: 0.5rem 1rem;
+  background-color: rgba(230, 230, 230, 0.6);
+  font-size: 1rem;
+  margin-bottom: 22px;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+input::placeholder {
+  color: #000;
+  font-weight: bold;
+}
+
+.div-field:hover {
+  background-color: #ccc;
+}
+
+.div-field:focus {
+  background-color: #fff;
+  border: 2px solid rgba(30, 85, 250, 0.47);
+}
+
+.div-area {
+  min-height: 100px;
+}
+
+.div-success {
+  border-color: #04aa6d;
+  color: #000;
+  transition: 0.3s;
+}
+
+.success:hover {
+  background-color: #04aa6d;
+  border: none;
+  color: white;
+}
+

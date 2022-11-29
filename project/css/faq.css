@@ -1,0 +1,66 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Bitter", serif;
+}
+
+
+.section {
+  background-image: url("../img/pexels-negative-space-33999.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 67vw;
+  color: #fff;
+}
+
+.accordion-body {
+  font-weight: bold;
+  color: #000;
+}
+
+.undraw {
+  height: 17vw;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.col-md-6 {
+  display: flex;
+  align-items: center;
+}
+.mb{
+  font-weight: bold;
+  color: #000;
+  margin-right: 13px;
+}
+.btn-warning {
+  font-weight: bold;
+
+}
+
+button {
+  font-weight: bold;
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+  height: 13px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(40deg, #b3b1b3 14%, #ffffff 64%);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(40deg, #8c8a8c 14%, #ffffff 64%);
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 0px 0px #f0f0f0;
+}
